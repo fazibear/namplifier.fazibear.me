@@ -11097,7 +11097,7 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
@@ -11105,7 +11105,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
   background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0.8) 100%);
 }
 .projects-section .featured-text {
@@ -11128,11 +11128,10 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
+  padding: 1rem 0;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.8) 100%);
 }
 .signup-section .form-signup input {
