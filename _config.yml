@@ -3,7 +3,7 @@ author: Michał Kalbarczyk
 description: VST
 url: "https://namplifier.fazibear.me"
 
-permalink: /:version/
+permalink: /v/:title/
 
 # plugins:
 #   - jekyll-feed

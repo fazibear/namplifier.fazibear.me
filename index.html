@@ -138,10 +138,12 @@
     <section class="signup-section" id="download">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5">
-          <div class="col-md-10 col-lg-8 mx-auto text-center">
-            <i class="far fa-solid fa-download fa-2x mb-2 text-primary"></i>
-            <h2 class="text-primary mb-5">Latest version: 0.0.0</h2>
-          </div>
+          {% for post in site.posts limit:1 %}
+            <div class="col-md-10 col-lg-8 mx-auto text-center">
+              <i class="far fa-solid fa-download fa-2x mb-2 text-primary"></i>
+            <h2 class="text-primary mb-5">Latest version: {{ post.title }}</h2>
+            </div>
+          {% endfor %}
         </div>
       </div>
     </section>
