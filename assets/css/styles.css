@@ -11015,7 +11015,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: #000000C0;
+    background-color: #00000090;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11034,7 +11034,7 @@ body {
     color: #ffffff;
   }
   #mainNav.navbar-shrink {
-    background-color: #00000090;
+    background-color: #000000C0;
   }
 }
 
@@ -11106,6 +11106,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
+  background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0.8) 100%);
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11128,11 +11129,11 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.8) 100%);
 }
 .signup-section .form-signup input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
@@ -11146,6 +11147,7 @@ body {
 }
 
 .contact-section {
+  background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.8) 100%);
   padding-top: 5rem;
 }
 .contact-section .card {

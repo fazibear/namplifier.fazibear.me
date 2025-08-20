@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Grayscale - Start Bootstrap Theme</title>
+    <title>{{ site.title }}</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v6.7.2/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
@@ -27,8 +29,8 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
             <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
-            <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -69,27 +71,17 @@
       </div>
     </section>
     <!-- Projects-->
-    <section class="projects-section bg-light" id="download">
+    <section class="projects-section" id="features">
       <div class="container px-4 px-lg-5">
-        <!-- Featured Project Row-->
-        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-          <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
-              <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-            </div>
-          </div>
-        </div>
         <!-- Project One Row-->
         <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-          <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+          <div class="col-lg-6"><img class="img-fluid" src="assets/img/nam.png" alt="..." /></div>
           <div class="col-lg-6">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 class="text-white">Misty</h4>
-                  <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                  <h4 class="text-white">NAM Profiles</h4>
+                  <p class="mb-0 text-white-50">Load any NAM profile.</p>
                 </div>
               </div>
             </div>
@@ -97,13 +89,50 @@
         </div>
         <!-- Project Two Row-->
         <div class="row gx-0 justify-content-center">
-          <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+          <div class="col-lg-6"><img class="img-fluid" src="assets/img/ir.jpg" alt="..." /></div>
           <div class="col-lg-6 order-lg-first">
             <div class="bg-black text-center h-100 project">
               <div class="d-flex h-100">
                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 class="text-white">Mountains</h4>
-                  <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
+                  <h4 class="text-white">Impulse Response Loader</h4>
+                  <p class="mb-0 text-white-50">Load your favorite IRs or download them from Tone3000.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project One Row-->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+          <div class="col-lg-6"><img class="img-fluid" src="assets/img/tone3000.jpg" alt="..." /></div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Tone3000</h4>
+                  <p class="mb-0 text-white-50">Browse and load all Tone3000 tones/irs strait from Tone3000.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project One Row-->
+        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Noise Gate</h4>
+                  <p class="mb-0 text-white-50">Soon!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">3 Band Equalizer</h4>
+                  <p class="mb-0 text-white-50">Soon!</p>
                 </div>
               </div>
             </div>
@@ -112,84 +141,19 @@
       </div>
     </section>
     <!-- Signup-->
-    <section class="signup-section" id="signup">
+    <section class="signup-section" id="download">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
-            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
-            <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-              <!-- Email address input-->
-              <div class="row input-group-newsletter">
-                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-              </div>
-              <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-              <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-              <!-- Submit success message-->
-              <!---->
-              <!-- This is what your users will see when the form-->
-              <!-- has successfully submitted-->
-              <div class="d-none" id="submitSuccessMessage">
-                <div class="text-center mb-3 mt-2 text-white">
-                  <div class="fw-bolder">Form submission successful!</div>
-                  To activate this form, sign up at
-                  <br />
-                  <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                </div>
-              </div>
-              <!-- Submit error message-->
-              <!---->
-              <!-- This is what your users will see when there is-->
-              <!-- an error submitting the form-->
-              <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-            </form>
+            <i class="far fa-solid fa-download fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">Latest version: 0.0.0</h2>
           </div>
         </div>
       </div>
     </section>
     <!-- Contact-->
-    <section class="contact-section bg-black">
+    <section class="contact-section">
       <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5">
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Address</h4>
-                <hr class="my-4 mx-auto" />
-                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Email</h4>
-                <hr class="my-4 mx-auto" />
-                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Phone</h4>
-                <hr class="my-4 mx-auto" />
-                <div class="small text-black-50">+1 (555) 902-8832</div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="social d-flex justify-content-center">
           <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
           <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -198,15 +162,10 @@
       </div>
     </section>
     <!-- Footer-->
-    <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
+    <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; {{ site.author }} 2025</div></footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="assets/js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   </body>
 </html>

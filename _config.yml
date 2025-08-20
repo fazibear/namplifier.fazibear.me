@@ -1,9 +1,9 @@
-title: Programming Adventures with Michał Kalbarczyk
+title: Namplifier
 author: Michał Kalbarczyk
-description: Programming Adventures with Michał Kalbarczyk
-url: "https://blog.fazibear.me"
+description: VST
+url: "https://namplifier.fazibear.me"
 
-permalink: /:title/
+permalink: /:version/
 
 # plugins:
 #   - jekyll-feed
