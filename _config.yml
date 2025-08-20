@@ -1,0 +1,10 @@
+title: Programming Adventures with Michał Kalbarczyk
+author: Michał Kalbarczyk
+description: Programming Adventures with Michał Kalbarczyk
+url: "https://blog.fazibear.me"
+
+permalink: /:title/
+
+# plugins:
+#   - jekyll-feed
+#   - jekyll-sitemap
