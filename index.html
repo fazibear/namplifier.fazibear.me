@@ -141,7 +141,8 @@
           {% for post in site.posts limit:1 %}
             <div class="col-md-10 col-lg-8 mx-auto text-center">
               <i class="far fa-solid fa-download fa-2x mb-2 text-primary"></i>
-              <h2 class="text-primary mb-1">Download latest version: {{ post.title }}</h2>
+              <h2 class="text-primary mb-1">Latest version: {{ post.title }}</h2>
+              <h4 class="text-primary mb-1">Download VST3/CLAP</h4>
               <h5 class="text-primary">Namplifier is in alpha state. Submit your issues to <a href="https://github.com/fazibear/namplifier.fazibear.me/issues">github issues</a>.
               <p class="mt-5">
                 {% if post.download_macos %}
