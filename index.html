@@ -138,18 +138,19 @@
     <section class="signup-section" id="download">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5">
-          {% for post in site.posts limit:1 %}
+          {% assign versions = site.versions | sort: "title" | reverse %}
+          {% for ver in versions limit:1 %}
             <div class="col-md-10 col-lg-8 mx-auto text-center">
               <i class="far fa-solid fa-download fa-2x mb-2 text-primary"></i>
-              <h2 class="text-primary mb-1">Latest version: {{ post.title }}</h2>
+              <h2 class="text-primary mb-1">Latest version: {{ ver.title }}</h2>
               <h4 class="text-primary mb-1">Download VST3/CLAP</h4>
               <h5 class="text-primary">Namplifier is in alpha state. Submit your issues to <a href="https://github.com/fazibear/namplifier.fazibear.me/issues">github issues</a>.
               <p class="mt-5">
-                {% if post.download_macos %}
-                  <a class="btn btn-primary" href="{{post.download_macos}}">for MacOS</a>
+                {% if ver.download_macos %}
+                  <a class="btn btn-primary" href="{{ver.download_macos}}">for MacOS</a>
                 {% endif %}
-                {% if post.download_windows %}
-                  <a class="btn btn-primary" href="{{post.download_window}}">for Windows</a>
+                {% if ver.download_windows %}
+                  <a class="btn btn-primary" href="{{ver.download_window}}">for Windows</a>
                 {% else %}
                   <a class="btn btn-primary">Windows soon!</a>
                 {% endif %}
