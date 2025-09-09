@@ -39,6 +39,7 @@
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
             <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
           </ul>
         </div>
       </div>
@@ -157,8 +158,6 @@
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
-          </div>
-          <div class="col-md-10 col-lg-8 mx-auto text-center">
             <i class="far fa-solid fa-download fa-2x mb-2 text-primary"></i>
             {% assign versions = site.versions | sort: "title" | reverse %}
             {% for ver in versions limit:1 %}
@@ -186,17 +185,27 @@
       </div>
     </section>
     <!-- Contact-->
-    <section class="contact-section">
+    <section class="faq-section" id="faq">
       <div class="container px-4 px-lg-5">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+          <i class="far fa-solid fa-person-circle-question fa-2x mb-2 text-primary"></i>
+          <h4 class="text-primary">Why I can't type anything ?</h4>
+          <div class="text-primary">
+            You should configure your daw to pass keyboard input to plug-in.
+            E.g in Reaper Click the + button at the top of the FX window and select "Send all keyboard input to plug-in" from the menu.
+          <div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-secondary">
         <div class="social d-flex justify-content-center">
           <a class="mx-2" href="https://discord.gg/bqxteUEv"><i class="fab fa-discord"></i></a>
           <a class="mx-2" href="https://x.com/namplifier666"><i class="fab fa-x-twitter"></i></a>
           <a class="mx-2" href="https://github.com/fazibear/namplifier.fazibear.me"><i class="fab fa-github"></i></a>
         </div>
-      </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer bg-black small text-center text-secondary"><div class="container px-4 px-lg-5">Copyright &copy; {{ site.author }} 2025</div></footer>
+      <div class="container px-4 px-lg-5">Copyright &copy; {{ site.author }} 2025</div>
+    </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
