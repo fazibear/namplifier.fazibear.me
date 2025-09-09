@@ -165,9 +165,12 @@
               <h2 class="text-primary mb-1">Latest version: {{ ver.title }}</h2>
               <h5 class="text-primary">
                 Namplifier is in alpha state. Submit your issues to
-                  <a href="https://github.com/fazibear/namplifier.fazibear.me/issues">github issues</a>.
+                  <a href="https://github.com/fazibear/namplifier.fazibear.me/issues">github</a>.
               </h5>
-              <h4 class="text-primary mt-4">Download VST3/CLAP</h4>
+              <h5 class="text-primary">
+                You can support on <a href="https://github.com/sponsors/fazibear"><i class="fa-brands fa-github"></i></a>
+              </h5>
+              <h4 class="text-primary mt-5">Download VST3/CLAP</h4>
               <div>
                 {% if ver.macos %}
                   <a class="btn btn-primary" href="{{ver.macos}}">for MacOS</a>
@@ -178,9 +181,6 @@
               </div>
             {% endfor %}
             <div class="text-primary text-center">Code is unsigned for now. May require additional permissions.</div>
-            <h5 class="mt-4 text-primary">
-              You can support on <a href="https://github.com/sponsors/fazibear"><i class="fa-brands fa-github"></i></a>
-            </h5>
           </div>
         </div>
       </div>
