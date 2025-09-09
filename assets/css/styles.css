@@ -11127,22 +11127,12 @@ body {
   }
 }
 
-.signup-section {
+.download-section {
   padding: 1rem 0;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.8) 100%);
-}
-.signup-section .form-signup input {
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
 }
 
 .contact-section {

@@ -152,27 +152,36 @@
         </div>
       </div>
     </section>
-    <!-- Signup-->
-    <section class="signup-section" id="download">
+    <!-- Download-->
+    <section class="download-section" id="download">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5">
-          {% assign versions = site.versions | sort: "title" | reverse %}
-          {% for ver in versions limit:1 %}
-            <div class="col-md-10 col-lg-8 mx-auto text-center">
-              <i class="far fa-solid fa-download fa-2x mb-2 text-primary"></i>
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+          </div>
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+            <i class="far fa-solid fa-download fa-2x mb-2 text-primary"></i>
+            {% assign versions = site.versions | sort: "title" | reverse %}
+            {% for ver in versions limit:1 %}
               <h2 class="text-primary mb-1">Latest version: {{ ver.title }}</h2>
-              <h4 class="text-primary mb-1">Download VST3/CLAP</h4>
-              <h5 class="text-primary">Namplifier is in alpha state. Submit your issues to <a href="https://github.com/fazibear/namplifier.fazibear.me/issues">github issues</a>.
-              <p class="mt-5">
+              <h5 class="text-primary">
+                Namplifier is in alpha state. Submit your issues to
+                  <a href="https://github.com/fazibear/namplifier.fazibear.me/issues">github issues</a>.
+              </h5>
+              <h4 class="text-primary mt-4">Download VST3/CLAP</h4>
+              <div>
                 {% if ver.macos %}
                   <a class="btn btn-primary" href="{{ver.macos}}">for MacOS</a>
                 {% endif %}
                 {% if ver.windows %}
                   <a class="btn btn-primary" href="{{ver.windows}}">for Windows</a>
                 {% endif %}
-              </p>
-            </div>
-          {% endfor %}
+              </div>
+            {% endfor %}
+            <div class="text-primary text-center">Code is unsigned for now. May require additional permissions.</div>
+            <h5 class="mt-4 text-primary">
+              You can support on: <a href="https://github.com/sponsors/fazibear"><i class="fa-brands fa-github"></i></a>
+            </h5>
+          </div>
         </div>
       </div>
     </section>
