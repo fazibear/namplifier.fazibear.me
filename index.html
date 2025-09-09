@@ -162,9 +162,9 @@
             {% assign versions = site.versions | sort: "title" | reverse %}
             {% for ver in versions limit:1 %}
               <h2 class="text-primary mb-1">Latest version: {{ ver.title }}</h2>
-              <h5 class="text-primary">
+              <h5 class="text-secondary">
                 Namplifier is in alpha state. Submit your issues to
-                  <a href="https://github.com/fazibear/namplifier.fazibear.me/issues">github</a>.
+                  <a class="text-secondary" href="https://github.com/fazibear/namplifier.fazibear.me/issues">github</a>.
               </h5>
               <h5 class="text-primary">
                 You can support on <a href="https://github.com/sponsors/fazibear"><i class="fa-brands fa-github"></i></a>
@@ -179,7 +179,7 @@
                 {% endif %}
               </div>
             {% endfor %}
-            <div class="text-primary text-center mt-1">Code is unsigned for now. May require additional permissions.</div>
+            <div class="text-secondary text-center mt-1">Code is unsigned for now. May require additional permissions.</div>
           </div>
         </div>
       </div>
@@ -190,7 +190,7 @@
         <div class="col-md-10 col-lg-8 mx-auto text-center">
           <i class="far fa-solid fa-person-circle-question fa-2x mb-2 text-primary"></i>
           <h4 class="text-primary">Why I can't type anything ?</h4>
-          <div class="text-primary">
+          <div class="text-secondary">
             You should configure your daw to pass keyboard input to plug-in.
             E.g in Reaper Click the + button at the top of the FX window and select "Send all keyboard input to plug-in" from the menu.
           <div>
