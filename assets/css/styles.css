@@ -11108,6 +11108,12 @@ body {
   padding: 5rem 0;
   background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0.8) 100%);
 }
+
+.projects-section .img-fluid {
+  height: 300px;
+  width: 100%;
+}
+
 .projects-section .featured-text {
   padding: 2rem;
 }
