@@ -5,9 +5,9 @@ url: "https://namplifier.fazibear.me"
 
 permalink: /v/:title/
 
-collections:
-  versions:
-    output: false
+# collections:
+#   versions:
+#     output: false
 
 # plugins:
 #   - jekyll-feed
