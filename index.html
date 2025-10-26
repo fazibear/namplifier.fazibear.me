@@ -136,7 +136,7 @@
                 <div class="project-text w-100 my-auto text-center text-lg-right">
                   <h4 class="text-primary">Noise Gate</h4>
                   <p class="mb-0 text-secondary">
-                    Keep high-gain tones tight and professional. Soon!
+                    Keep high-gain tones tight and professional.
                   </p>
                 </div>
               </div>
@@ -163,27 +163,42 @@
         <div class="row gx-4 gx-lg-5">
           <div class="col-md-10 col-lg-8 mx-auto text-center">
             <i class="far fa-solid fa-download fa-2x mb-2 text-primary"></i>
-              <h2 class="text-primary mb-1">Latest version:
-                <span id="version">{{ site.data.version }}</span>
-              </h2>
-              <h5 class="text-secondary">
-                Namplifier is in alpha state. Submit your issues on
-                  <a class="text-secondary" href="https://github.com/fazibear/namplifier.fazibear.me/issues">github</a>.
-              </h5>
-              <h5 class="text-primary">
-                You can support using <a href="https://github.com/sponsors/fazibear">github sponsors</a>.
-              </h5>
-              <h4 class="text-primary mt-5">Download VST3/CLAP</h4>
-              <div>
-                {% if site.data.macos %}
-                  <a class="btn btn-primary" href="{{ site.data.macos }}">for MacOS</a>
-                {% endif %}
-                {% if site.data.windows %}
-                  <a class="btn btn-primary" href="{{ site.data.windows }}">for Windows</a>
-                {% endif %}
+            <h2 class="text-primary mb-1">Latest version:
+              <span id="version">{{ site.data.version }}</span>
+            </h2>
+            <h5 class="text-secondary">
+              Namplifier is in alpha stage.
+            </h5>
+            <!--h5 class="text-secondary">
+              Submit your issues on <a class="text-secondary" href="https://github.com/fazibear/namplifier.fazibear.me/issues">github</a>.
+            </h5-->
+            <div class="mt-4">
+              <a class="btn btn-primary" href="https://github.com/sponsors/fazibear">
+                <i class="fa-regular fa-heart me-2"></i>
+                Support
+                <i class="fa-regular fa-heart ms-2"></i>
+              </a>
+            </div>
+            {% if site.data.macos %}
+              <div class="m-2">
+                <a class="btn btn-primary" href="{{ site.data.macos }}">
+                  Download
+                  <i class="fa-brands fa-apple"></i>
+                  MacOS VST3/CLAP
+                </a>
               </div>
+            {% endif %}
+            {% if site.data.windows %}
+              <div class="m-2">
+                <a class="btn btn-primary" href="{{ site.data.windows }}">
+                  Download
+                  <i class="fa-brands fa-windows"></i>
+                  Windows VST3/CLAP
+                </a>
+              </div>
+            {% endif %}
             <div class="text-secondary text-center mt-1">Code is unsigned for now. May require additional permissions.</div>
-            <div class="text-secondary text-center mb-1">Standalone application soon!</div>
+            <!--div class="text-secondary text-center mb-1">Standalone application soon!</div-->
           </div>
         </div>
       </div>
