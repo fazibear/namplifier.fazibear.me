@@ -11141,14 +11141,22 @@ body {
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.8) 100%);
 }
 
-.faq-section {
+.support-section {
+  padding: 1rem 0;
   background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.8) 100%);
+  padding-top: 10rem;
+}
+
+
+.faq-section {
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 40%, rgba(0, 0, 0, 0.9) 80%,  #000 100%);
   padding-top: 10rem;
 }
 
 .footer .social {
   margin-top: 5rem;
 }
+
 .footer .social a {
   text-align: center;
   height: 3rem;
